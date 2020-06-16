@@ -18,11 +18,10 @@ we also want to develop standards for components of the assistant such as skills
 algorithm pattern recognition, etc..
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    concepts/concept
-   concepts/activation
-   concepts/action_sequence
+   potential_errors/errors
    help
 
 
