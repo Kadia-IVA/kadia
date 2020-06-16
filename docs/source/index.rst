@@ -10,8 +10,8 @@ Kadia is open-source intelligent virtual assistant integrated with ASR system.
 
 .. toctree::
    :maxdepth: 2
-     help
-   :caption: Contents:
+
+   help
 
 
 Indices and tables
