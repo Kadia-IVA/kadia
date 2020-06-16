@@ -8,9 +8,21 @@ Welcome to Kadia's documentation!
 
 Kadia is open-source intelligent virtual assistant integrated with ASR system.
 
+
+Kadia`s mission
+================================
+The main goal of the project is to test various concepts and technologies to enhance
+the quality of the modern IVA industry. We aim to reach it by implementing our own
+open-source Kadia using publicity-available state-of-the-art technologies. Along with the code itself,
+we also want to develop standards for components of the assistant such as skills,
+algorithm pattern recognition, etc..
+
 .. toctree::
    :maxdepth: 2
 
+   concepts/concept
+   concepts/activation
+   concepts/action_sequence
    help
 
 
