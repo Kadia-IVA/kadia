@@ -22,6 +22,7 @@ algorithm pattern recognition, etc..
 
    concepts/concept
    potential_errors/errors
+   architecture/architecture
    help
 
 
