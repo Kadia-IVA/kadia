@@ -11,3 +11,6 @@ The architecture
      meta_manager
      style_enhancer
      algo_recognizer
+     skill_manager
+     skill_finder
+     intent_embedder
