@@ -9,3 +9,5 @@ The architecture
 
      user
      meta_manager
+     style_enhancer
+     algo_recognizer
