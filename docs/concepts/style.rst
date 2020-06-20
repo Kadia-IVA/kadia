@@ -1,6 +1,6 @@
 .. _text_style_embedding:
 
-Text style embedding.
+Text style embedding
 =================================
 The modern IVA lacks the style. As a consequence, they are less adorable by users.
 We want to change it by enhancing skills texts with one of several styles available for users.
