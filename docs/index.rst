@@ -24,6 +24,7 @@ algorithm pattern recognition, etc..
    potential_errors/errors
    architecture/architecture
    path/stages
+   tech_stack
    help
 
 
