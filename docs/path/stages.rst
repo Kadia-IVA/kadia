@@ -1,4 +1,4 @@
-The Path
+The path
 ==============
 
 Version 0.1
@@ -41,7 +41,7 @@ Demo:
 - telegram bot
 - kadia.github.io
 
-Version 0.4
+Version 1.0+
 ---------------
 
 Feedback based features. Marketing compaign.
