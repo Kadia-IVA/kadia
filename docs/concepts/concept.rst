@@ -12,7 +12,7 @@ The project Kadia wants to test these features:
 - :ref:`Action sequence recognition<action_sequence_recognition>`
 - :ref:`Text style embedding<text_style_embedding>`
 - :ref:`Advanced NER<advanced_ner>`
-- :ref:`The opportunity for skills to use other skills<skill_using_other_skill>`
+- :ref:`Embedded skills<skill_using_other_skill>`
 
 Along with common:
 

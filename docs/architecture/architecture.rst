@@ -10,8 +10,9 @@ The architecture
      user
      meta_manager
      parser_and_ner
-     style_enhancer
-     algo_recognizer
      skill_manager
+     skill
      skill_finder
      intent_embedder
+     algo_recognizer
+     style_enhancer
