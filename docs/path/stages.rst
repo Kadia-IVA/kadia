@@ -5,7 +5,7 @@ Version 0.1
 --------------
 
 This version will test our basic systems. Skills will be called by /run commands by the user directly.
-The main goal is to test skill API, deployment and team skills.
+The main goal is to test skill API, deployment and teamwork.
 
 Available modules:
 
