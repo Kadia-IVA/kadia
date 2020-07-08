@@ -1,3 +1,6 @@
 fastapi
--f https://download.pytorch.org/whl/torch_stable.html
-torch==1.5.1+cpu
+requests
+dnspython
+pymongo
+uvicorn
+kadia_common>=0.0.37

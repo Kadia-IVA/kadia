@@ -1,5 +1,13 @@
+
+## Deployment to GCP
+```shell
+PROJECT_ID=majestic-disk-281618
+IMAGE=meta_manager
+
+gcloud builds submit . --tag gcr.io/$PROJECT_ID/$IMAGE
 ```
-uvicorn run:app --port 8080
 
-
+### Local deployment
+```shell
+uvicorn run:app --port 8081
 ```

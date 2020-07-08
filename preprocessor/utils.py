@@ -1,26 +1,14 @@
-from fastapi import FastAPI, WebSocket, Body
-from fastapi.responses import HTMLResponse
-from schemes import *
-import requests
 import json
 import time
 import os
 import string
 import logging
+from kadia_common.types import Token
 
 mask = '[MASK]'
 digits = "0123456789"
 punctuation = string.punctuation + '’“”’—‘' + '–'
 
-"""
-Useful links:
-
-!!!Dataset instructions: https://www.weak-learner.com/blog/2019/12/27/ontonotes-5/
-!!!Training instruction: https://huggingface.co/transformers/v2.2.0/examples.html#training
-
-DeepPavlov configs: https://github.com/deepmipt/DeepPavlov/blob/master/deeppavlov/configs/ner/ner_ontonotes_bert.json
-Example: https://github.com/flairNLP/flair
-"""
 
 def char_is_emoji(character):
     return character in emoji.UNICODE_EMOJI
@@ -58,33 +46,11 @@ def parse_to_words(text):
             logging.warning(f"Warning! Strange char {el}")
     return words, words_indexes
 
-def do_truecase(text):
-    """
-    truecase text https://pypi.org/project/truecase/
-    source: https://arxiv.org/pdf/1903.11222.pdf
-    """
-    pass
-
-def do_ner(text):
-    """use distilbert-base-cased"""
-    pass
-
-def do_parse(text, entities):
-    """parse text to tokens. Entity must be a single token"""
-    pass
-
-app = FastAPI()
-
-@app.post("/") # add more decorators
-def reply(text: str = Body(..., embed=True)):
-    do_truecase()
-    do_ner()
-    do_parse()
-    speech = Speech(...)
-    return speech.as_dict()
-
-@app.post("/postprocess") # add more decorators
-def reply(text: str = Body(..., embed=True)):
-    do_parse()
-    speech = Speech(...)
-    return speech.as_dict()
+def text2tokens(text):
+    words, words_indexes = parse_to_words(text)
+    tokens = []
+    for i in range(len(words)):
+        token = Token(raw=words[i],
+                      offset=words_indexes[i][0],
+                      pos={})
+    return tokens

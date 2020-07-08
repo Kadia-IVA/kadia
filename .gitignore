@@ -1,3 +1,9 @@
+preprocessor/Kadia-*.json
+preprocessor/preprocessor.zip
+skill_manager/secrets.json
+meta_manager/.vars
+manual_test_utils/.vars
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

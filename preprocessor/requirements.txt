@@ -1,0 +1,4 @@
+pydantic
+google-cloud-language
+flask
+kadia_common==0.0.37

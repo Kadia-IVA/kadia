@@ -1,2 +1,6 @@
 fastapi
 requests
+dnspython
+pymongo
+uvicorn
+kadia_common>=0.0.36
